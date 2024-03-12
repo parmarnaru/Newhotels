@@ -23,11 +23,7 @@ const usershema=mongoose.Schema({
         required:true,
         
      },
-     password:{
-           type:Number,
-          required:true,
-
-     },
+    
      address:{
         type:String,
 
@@ -36,6 +32,15 @@ const usershema=mongoose.Schema({
         type:Number,
         required:true,
      },
+     username:{
+      type:String,
+      required:true
+     },
+     password:{
+      type:String,
+      required:true,
+     }
+
      
    
 })
